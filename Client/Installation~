@@ -1,0 +1,20 @@
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> INSTALLATION INSTRUCTIONS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ 
+ Things required:
+ 1) Aakash tablet
+ 
+ Procedure:
+ * Install the client version of the App 'Eval' on to the Android Tablet by using the APK provided in 
+   this folder
+ * To view or Modify the source code, Import the 'Source Code' folder into Eclipse ( Android ).
+ * To change the server IP address. go to utilities file in the StaticAttributes package and change it.
+ * To Run 'Eval' from eclipse, required libraries which are provided in this folder should be added. 
+ 
+ Feature Details:
+ * Files downloaded are stored in the Directory Eval in the SD card
+ * Files of the student's standard are only shown.
+ 
+ Points to Remember for Smooth running of Application:
+ * Never try to press any of the button's repeatedly as it will crash the Application in aakash tablet.
+ * Always give a good time delay between any two button pressing's
+ * Dont Go back while the quiz is running.

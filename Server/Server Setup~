@@ -1,0 +1,25 @@
+SETTING UP THE SERVER:
+
+Things needed:
+1) Access Point
+2) A Java Compatible PC with good processing power
+
+Setup Procedure:
+1) Configure Access point to give 192.168.1.113. ( Can change it in the client's source code and recompile it again -- Present in Utilities file)
+2) Client can now connect and contact the server.
+3) Setup MYSQL Database and create a new database in it.
+4) Import the existing database in it bu dumping the file provided in the database folder to it.
+5) Now Change the Login sredentials in the Server Code for accessing database.
+6) Add the required libraries to the server code in netbeans.
+7) Compile it and run it.
+
+
+Feature Details:
+1) Files should be placed in the 'Files' folder in the source code direcory with the Folder created inside it for designating standard of the file.
+2) Standard folder's are named as standard<StandardNO> ex: for standard 3 .. create 'standard3'
+3) Keep the files inside the created standard directory by prefixing it with the Subject name
+	ex: for file xyz.doc in Hindi
+		Hindi_xyz.doc and place it in the respective standard sub-directory which is present in the Files directory
+
+
+

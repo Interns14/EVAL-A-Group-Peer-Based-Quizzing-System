@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/fillup">
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="40dp"
+         android:layout_above="@+id/question"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:gravity="center"
+         android:text="Enter your question, answer and press submit."
+         android:textColor="#FFFFFF"
+         android:textSize="25dp" />
+
+     <TextView
+         android:id="@+id/error_fillup"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/button1"
+         android:layout_alignLeft="@+id/fillupq"
+         android:layout_alignRight="@+id/fillupq"
+         android:layout_below="@+id/fillupa"
+         android:layout_marginTop="14dp"
+         android:gravity="center"
+         android:text="sadfsf"
+         android:textColor="#FFFFFF" />
+
+     <EditText
+         android:id="@+id/fillupq"
+         android:layout_width="500dp"
+         android:layout_height="60dp"
+         android:layout_below="@+id/textView1"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="77dp"
+         android:background="@android:drawable/editbox_background"
+         android:ems="10"
+         android:hint="Enter your question here..."
+         android:textColor="#000000"
+         android:inputType="text" >
+
+         <requestFocus />
+     </EditText>
+
+     <EditText
+         android:id="@+id/fillupa"
+         android:layout_width="250dp"
+         android:layout_height="50dp"
+         android:layout_below="@+id/fillupq"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="32dp"
+         android:background="@android:drawable/editbox_background"
+         android:ems="10"
+         android:textColor="#000000"
+         android:hint="Enter the correct answer..."
+         android:inputType="text" />
+
+     <Button
+         android:id="@+id/button1"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="175dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="25dp"
+         android:text="Button" />
+
+</RelativeLayout>

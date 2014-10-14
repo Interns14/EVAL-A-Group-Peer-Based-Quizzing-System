@@ -1,0 +1,8 @@
+Running Server from Netbeans:
+
+1) Use the following source code and import it to the netbeans.
+2) By default, libraries are not added. So, Add all of the provided libraries to the libraries folder in the netbeans project.
+3) Set up the MYSQL database for the Server. There is a dump file given which contains all the tables and some sample entries. Create a database in your local system and dump this file by using this command
+3) Compile the project.
+4) Run the project.
+
